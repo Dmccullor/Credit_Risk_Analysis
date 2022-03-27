@@ -34,4 +34,4 @@ High risk recall score of 0.70<br><br>
 High risk recall score of 0.92<br>
 <br><br>
 ## Recommendation
-The Easy Ensemble AdaBoost Classifier algorithm is the obvious choice, because it correctly identified 92% of the fraudulent cases.
+The Easy Ensemble AdaBoost Classifier algorithm is the obvious choice, because it correctly identified 92% of the high risk cases.
