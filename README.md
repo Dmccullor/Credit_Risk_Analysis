@@ -12,7 +12,8 @@ Oversampling from the high risk cases using <b>RandomOverSampler</b> and <b>SMOT
 The <b>BalancedRandomForestClassifier</b> and <b>AdaBoost</b> algorithms were used to employ decision tree techniques to produce a more robust and accurate model.
 <br><br>
 ## Analysis
-When detecting fraud, the most important measurement to pay attention to is not the overall accuracy of the model, but the sensitivity. Sensitivity is measured by the recall score and means that a high percentage of the true positives will be identified, even if there are more false positives as a result. Let's see how these six algorithms perform with regard to sensitivity.<br><br>
+The recall score will provide the best indicator of the number of high risk cases that are caught. Using this figure may label some low risk cases as high risk, but a higher recall score ensures that the highest number of high risk cases are identified.
+<br><br>
 <b>Native Random Oversampling</b>
 <img src="Images/native_oversampling.png"><br>
 High risk recall score of 0.72<br><br>
